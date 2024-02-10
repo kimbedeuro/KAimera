@@ -13,6 +13,4 @@ Environment
 -------------
 <span style="color:black;"> Our implementation environment is as follows: </span>
 
-torch 2.1.2
-tensorflow 2.11.0
-Python 3.8.1
+** Pytorch version 2.1.2, tensorflow 2.11.0 and Python 3.8.1 **
