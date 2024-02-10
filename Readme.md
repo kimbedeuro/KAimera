@@ -4,7 +4,7 @@ Killing Two Birds with KAimera: High-Accuracy, Low-Complexity Anomaly Detection 
 
 Getting started
 -------------
-<span style="color:black; font-size:12px;"> clone the repo <span>
+<span style="color:black;"> clone the repo <span>
 '''
-git clone https://github.com/kimbedeuro/KAimera.git && cd KAimera
+<span style="color:black;"> git clone https://github.com/kimbedeuro/KAimera.git && cd KAimera <span>
 '''
