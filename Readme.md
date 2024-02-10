@@ -9,3 +9,6 @@ Getting started
 <pre><code><span style="color:black;"> git clone https://github.com/kimbedeuro/KAimera.git && cd KAimera </span>
 </code></pre>
 
+Environment
+-------------
+<span style="color:black;"> Our implementation environment is as follows: </span>
