@@ -32,11 +32,9 @@ Citation
 If you find this repo or our work useful for your research, please consider citing the paper
 (This part will updated)
 
-<pre><code>
-@inproceedings{-,
+<pre><code>@inproceedings{-,
   title={Killing Two Birds with KAimera: High-Accuracy, Low-Complexity Anomaly Detection for Industrial Control Systems through Knowledge Distillation},
   author={Bedeuro Kim, Sanghak Oh, Won-Seok Hwang, and Hyoungshick Kim},
   booktitle={Proceedings of the 30th ACM SIGKDD Conference on Knowledge Discovery and Data Mining},
   year={2024}
-}
-</code></pre>
+}</code></pre>
