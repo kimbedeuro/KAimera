@@ -29,7 +29,7 @@ python run_WADI.py</code></pre>
  
 Citation
 -------------
-**(This part will updated)**If you find this repo or our work useful for your research, please consider citing the paper
+**(This part will updated)** If you find this repo or our work useful for your research, please consider citing the paper
 
 
 <pre><code>@inproceedings{-,
