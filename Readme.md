@@ -21,7 +21,11 @@ Environment
 
 Run
 -------------
-
+<pre><code>
+python run_SWaT.py
+python run_WADI.py
+ </code></pre>
+ 
 Citation
 -------------
 If you find this repo or our work useful for your research, please consider citing the paper
