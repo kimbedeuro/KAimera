@@ -22,7 +22,8 @@ Environment
 Run
 -------------
 <pre><code># run SWaT distillation
-python run_SWaT.py 
+python run_SWaT.py
+  
 #WADI distillation
 python run_WADI.py</code></pre>
  
