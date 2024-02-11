@@ -18,3 +18,19 @@ Environment
 * **TensorFlow 2.11.0**
   
 * **Python 3.8.1**
+
+Run
+-------------
+
+Citation
+-------------
+If you find this repo or our work useful for your research, please consider citing the paper
+
+<pre><code>
+@inproceedings{deng2021graph,
+  title={Killing Two Birds with KAimera: High-Accuracy, Low-Complexity Anomaly Detection for Industrial Control Systems through Knowledge Distillation},
+  author={Bedeuro Kim, Sanghak Oh, Won-Seok Hwang, and Hyoungshick Kim},
+  booktitle={Proceedings of the 30th ACM SIGKDD Conference on Knowledge Discovery and Data Mining},
+  year={2024}
+}
+</code></pre>
