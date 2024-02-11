@@ -29,8 +29,8 @@ python run_WADI.py</code></pre>
  
 Citation
 -------------
-If you find this repo or our work useful for your research, please consider citing the paper
-(This part will updated)
+**(This part will updated)**If you find this repo or our work useful for your research, please consider citing the paper
+
 
 <pre><code>@inproceedings{-,
   title={Killing Two Birds with KAimera: High-Accuracy, Low-Complexity Anomaly Detection for Industrial Control Systems through Knowledge Distillation},
