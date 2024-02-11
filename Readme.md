@@ -21,10 +21,11 @@ Environment
 
 Run
 -------------
-<pre><code>
-python run_SWaT.py
+<pre><code> # run SWaT distillation
+python run_SWaT.py 
+# run WADI distillation
 python run_WADI.py
- </code></pre>
+</code></pre>
  
 Citation
 -------------
