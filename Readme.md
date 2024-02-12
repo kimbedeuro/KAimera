@@ -25,7 +25,7 @@ Run
 python run_SWaT.py
   
 #WADI distillation
-python run_WADI.py</code></pre>
+python Github_WADI.py</code></pre>
  
 Citation
 -------------
