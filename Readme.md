@@ -22,7 +22,7 @@ Environment
 Run
 -------------
 <pre><code>#SWaT distillation
-python run_SWaT.py
+python Github_SWaT.py
   
 #WADI distillation
 python Github_WADI.py</code></pre>
