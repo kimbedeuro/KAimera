@@ -29,12 +29,13 @@ python Github_WADI.py</code></pre>
  
 Citation
 -------------
-**(This part will updated)** If you find this repo or our work useful for your research, please consider citing the paper
+If you find this repo or our work useful for your research, please consider citing the paper
+**This part will be updated after being accepted.**
 
 
 <pre><code>@inproceedings{-,
   title={Killing Two Birds with KAimera: High-Accuracy, Low-Complexity Anomaly Detection for Industrial Control Systems through Knowledge Distillation},
-  author={Bedeuro Kim, Sanghak Oh, Won-Seok Hwang, and Hyoungshick Kim},
+  author={Anonymous},
   booktitle={Proceedings of the 30th ACM SIGKDD Conference on Knowledge Discovery and Data Mining},
   year={2024}
 }</code></pre>
