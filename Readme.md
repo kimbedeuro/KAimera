@@ -35,7 +35,7 @@ python Github_SWaT.py
 #WADI distillation
 python Github_WADI.py</code></pre>
 
-If you want to see the code output result for SWaT and WADI, you can see <code>0.Github_SWaT.ipynb</code> and <code>1.Github_WADI.ipynb</code>. 
+If you want to see the code output result for SWaT and WADI directly, please check <code>0.Github_SWaT.ipynb</code> and <code>1.Github_WADI.ipynb</code>. 
 
 Citation
 -------------
