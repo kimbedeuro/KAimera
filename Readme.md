@@ -29,8 +29,8 @@ python Github_WADI.py</code></pre>
  
 Citation
 -------------
-If you find this repo or our work useful for your research, please consider citing the paper
-**This part will be updated after being accepted.**
+If you find this repo or our work useful for your research, please consider citing the paper.
+**(This part will be updated after being accepted.)**
 
 
 <pre><code>@inproceedings{-,
