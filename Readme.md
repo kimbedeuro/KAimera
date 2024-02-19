@@ -47,7 +47,6 @@ If you find this repo or our work useful for your research, please consider citi
 
 <pre><code>@inproceedings{-,
   title={Killing Two Birds with KAimera: High-Accuracy, Low-Complexity Anomaly Detection for Industrial Control Systems through Knowledge Distillation},
-  author={Anonymous},
   booktitle={Proceedings of the 30th ACM SIGKDD Conference on Knowledge Discovery and Data Mining},
   year={2024}
 }</code></pre>
