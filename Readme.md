@@ -31,9 +31,9 @@ Once the repository and environment settings are complete, ***KAimera*** can run
 (If you want to see the code result directly, please check <code>0.Github_SWaT.ipynb</code> and <code>1.Github_WADI.ipynb</code>.)  
 
 <pre><code>#SWaT distillation
-python Github_SWaT.py
+python Rawcode/Github_SWaT.py
   
 #WADI distillation
-python Github_WADI.py</code></pre>
+python Rawcode/Github_WADI.py</code></pre>
 
 
