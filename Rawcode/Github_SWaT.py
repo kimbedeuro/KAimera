@@ -58,9 +58,9 @@ def put_labels(distance, threshold):
     return xs
     
     
-Training_SWaT_RAW = pd.read_csv("Dataset/SWaT/SWaT_Dataset_Normal_v1.csv") 
+Training_SWaT_RAW = pd.read_csv("Dataset/SWaT/SWaT_Dataset_Normal_v1.csv") #"file can get to unzip SWaT_Dataset_Normal_v1.zip"
 
-TEST_SWaT_RAW = pd.read_csv("Dataset/SWaT/Dataset/SWaT_Dataset_Attack_v0.csv") 
+TEST_SWaT_RAW = pd.read_csv("Dataset/SWaT/Dataset/SWaT_Dataset_Attack_v0.csv") #"file can get to unzip SWaT_Dataset_Attack_v0.zip"
 
 
 C_TEST_SWaT_RAW=TEST_SWaT_RAW.drop([' Timestamp','label'], axis = 1)
