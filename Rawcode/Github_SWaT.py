@@ -306,7 +306,7 @@ def get_best_f1(score, label):
 
 
 
-teacher_load_student = joblib.load('best_optuna.pkl')
+teacher_load_student = joblib.load('SWaT_best_optuna.pkl')
 
 df_teacher = teacher_load_student.trials_dataframe().drop(['number','datetime_start','datetime_complete','duration','state'], axis=1)
 
