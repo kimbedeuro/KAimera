@@ -28,7 +28,7 @@ If you want to see the whole environment list, you can confirm in <code>0.Gihub_
 Implementation
 -------------
 Once the repository and environment settings are complete, ***KAimera*** can run as following commands:  
-(If you want to see the code output result for SWaT and WADI directly, please check <code>0.Github_SWaT.ipynb</code> and <code>1.Github_WADI.ipynb</code>.)  
+(If you want to see the code result directly, please check <code>0.Github_SWaT.ipynb</code> and <code>1.Github_WADI.ipynb</code>.)  
 
 <pre><code>#SWaT distillation
 python Github_SWaT.py
