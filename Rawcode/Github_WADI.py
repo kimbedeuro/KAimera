@@ -100,24 +100,24 @@ def get_trad_f1(score, label):
 
     
     
-Training_WADI_RAW = pd.read_csv("Dataset/WADI/WADI_train.csv")
+Training_WADI_RAW = pd.read_csv("Dataset/WADI/WADI_train.csv") #"file can get to unzip WADI_train.zip"
 
-TEST_WADI_RAW = pd.read_csv("Dataset/WADI/WADI_test.csv")
+TEST_WADI_RAW = pd.read_csv("Dataset/WADI/WADI_test.csv") #"file can get to unzip WADI_test.zip"
 
 
 C_TEST_WADI_RAW=TEST_WADI_RAW.drop(['attack'], axis = 1)
 
 
-MTS_cad_WADI_1 = pd.read_csv("Dataset/WADI/1_WADI_MTS_CAD_prediction_score.csv")
-MTAD_gat_2 = pd.read_csv("Dataset/WADI/2_WADI_mtad_gat_prediction_score.csv")
-GANF_3 = pd.read_csv("Dataset/WADI/3_WADI_ganf_prediction_score.csv")
-ANOMALY_transformer_4 = pd.read_csv("Dataset/WADI/4_WADI_anomaly_transformer_prediction_score.csv")
-RANSynCoder_5 = pd.read_csv("Dataset/WADI/5_WADI_RANSyn_prediction_score.csv")
-Autoencoder_6 = pd.read_csv("Dataset/WADI/6_WADI_Autoencoder_prediction_score.csv")
-USAD_7 = pd.read_csv("Dataset/WADI/7_WADI_USAD_prediction_score.csv")
-GDN_8 = pd.read_csv("Dataset/WADI/8_WADI_GDN_w_prediction_scores.csv")
-LSTM_9 = pd.read_csv("Dataset/WADI/9_WADI_lstm_prediction_score.csv")
-MSCRED_10 =pd.read_csv("Dataset/WADI/10_WADI_mscred_prediction_score.csv")
+MTS_cad_WADI_1 = pd.read_csv("Dataset/WADI/WADI_prediction_value/1_WADI_MTS_CAD_prediction_score.csv")
+MTAD_gat_2 = pd.read_csv("Dataset/WADI/WADI_prediction_value/2_WADI_mtad_gat_prediction_score.csv")
+GANF_3 = pd.read_csv("Dataset/WADI/WADI_prediction_value/3_WADI_ganf_prediction_score.csv")
+ANOMALY_transformer_4 = pd.read_csv("Dataset/WADI/WADI_prediction_value/4_WADI_anomaly_transformer_prediction_score.csv")
+RANSynCoder_5 = pd.read_csv("Dataset/WADI/WADI_prediction_value/5_WADI_RANSyn_prediction_score.csv")
+Autoencoder_6 = pd.read_csv("Dataset/WADI/WADI_prediction_value/6_WADI_Autoencoder_prediction_score.csv")
+USAD_7 = pd.read_csv("Dataset/WADI/WADI_prediction_value/7_WADI_USAD_prediction_score.csv")
+GDN_8 = pd.read_csv("Dataset/WADI/WADI_prediction_value/8_WADI_GDN_w_prediction_scores.csv")
+LSTM_9 = pd.read_csv("Dataset/WADI/WADI_prediction_value/9_WADI_lstm_prediction_score.csv")
+MSCRED_10 =pd.read_csv("Dataset/WADI/WADI_prediction_value/10_WADI_mscred_prediction_score.csv")
 
 
 list_WADI_model=[MTS_cad_WADI_1['score'],MTAD_gat_2['score'],GANF_3['score'],ANOMALY_transformer_4['score'],RANSynCoder_5['score'],Autoencoder_6['score'],USAD_7['score'],GDN_8['score'], LSTM_9['score'],MSCRED_10['score']] 
