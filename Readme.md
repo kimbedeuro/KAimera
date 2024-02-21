@@ -37,16 +37,3 @@ python Github_WADI.py</code></pre>
 
 If you want to see the code output result for SWaT and WADI directly,  
 please check <code>0.Github_SWaT.ipynb</code> and <code>1.Github_WADI.ipynb</code>. 
-
-Citation
--------------
-If you find this repo or our work useful for your research, please consider citing the paper. **(This part will be updated after being accepted.)**
-
-
-
-
-<pre><code>@inproceedings{-,
-  title={Killing Two Birds with KAimera: High-Accuracy, Low-Complexity Anomaly Detection for Industrial Control Systems through Knowledge Distillation},
-  booktitle={Proceedings of the 30th ACM SIGKDD Conference on Knowledge Discovery and Data Mining},
-  year={2024}
-}</code></pre>
