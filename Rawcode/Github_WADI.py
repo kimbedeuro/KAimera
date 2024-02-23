@@ -253,7 +253,7 @@ def get_test_f1(score, label,thres):
 
 
     
-teacher_load_student = joblib.load('Savemodel/WADI/WADI_best_optuna.pkl')
+teacher_load_student = joblib.load('Savedmodel/WADI/WADI_best_optuna.pkl')
 
 df_teacher = teacher_load_student.trials_dataframe().drop(['number','datetime_start','datetime_complete','duration','state'], axis=1)
 
@@ -272,7 +272,7 @@ teacher_model = NeuralNet(input_dim=WADI_feature_score_concate.shape[1],
                   activation_fn_name=best_params["activation_fn"])
              
                   
-teacher_model.load_state_dict(torch.load(f'Savemodel/WADI/Teacher_model_trial_{trial_num}.pth'))
+teacher_model.load_state_dict(torch.load(f'Savedmodel/WADI/Teacher_model_trial_{trial_num}.pth'))
 teacher_model.eval()
 
 

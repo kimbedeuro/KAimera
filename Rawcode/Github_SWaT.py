@@ -306,7 +306,7 @@ def get_best_f1(score, label):
 
 
 
-teacher_load_student = joblib.load('Savemodel/SWaT/SWaT_best_optuna.pkl')
+teacher_load_student = joblib.load('Savedmodel/SWaT/SWaT_best_optuna.pkl')
 
 df_teacher = teacher_load_student.trials_dataframe().drop(['number','datetime_start','datetime_complete','duration','state'], axis=1)
 
@@ -326,7 +326,7 @@ teacher_model = NeuralNet(input_dim=SWaT_feature_score_concate.shape[1],
     
 print("teacher_model.summary(): ",teacher_model)              
                   
-teacher_model.load_state_dict(torch.load(f'Savemodel/SWaT/Teacher_model_trial_{trial_num}.pth'))
+teacher_model.load_state_dict(torch.load(f'Savedmodel/SWaT/Teacher_model_trial_{trial_num}.pth'))
 teacher_model.eval()
 
 
